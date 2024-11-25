@@ -12,7 +12,7 @@ def angle_group():
 
 @angle_group.command()
 @click.option(
-"-n",
+"-s",
 "--steps",
 default=10,
 )
@@ -29,7 +29,7 @@ def sin(steps):
 
 @angle_group.command()
 @click.option(
-"-n",
+"-s",
 "--steps",
 default=10
 )
